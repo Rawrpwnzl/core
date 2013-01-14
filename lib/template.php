@@ -93,7 +93,7 @@ function simple_file_size($bytes) {
 }
 
 function relative_modified_date($timestamp) {
-    $l=OC_L10N::get('lib');
+	$l=OC_L10N::get('lib');
 	$timediff = time() - $timestamp;
 	$diffminutes = round($timediff/60);
 	$diffhours = round($diffminutes/60);
